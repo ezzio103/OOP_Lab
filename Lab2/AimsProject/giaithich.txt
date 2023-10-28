@@ -1,4 +1,18 @@
-Trong Java, khi bạn truyền một đối tượng vào một phương thức,
+10)
+Trong Java, bạn có thể tạo nhiều phương thức xây dựng (constructor) khác nhau
+ cho một lớp (phương thức xây dựng này được gọi là "overloading constructor").
+  Điều này cho phép bạn tạo các đối tượng của lớp với các thuộc tính khác nhau
+   từ các phương thức xây dựng khác nhau, tùy thuộc vào số lượng và kiểu dữ liệu
+    của các tham số bạn truyền vào.
+
+
+14)Nếu bạn cần sự linh hoạt cao và muốn gọi phương thức một cách
+ dễ dàng với số lượng đối số thay đổi, varargs là lựa chọn tốt.
+  Ngược lại, nếu bạn muốn có kiểm soát chính xác
+ hơn về kiểu dữ liệu và hiệu suất, việc truyền một mảng có thể là lựa chọn tốt
+
+
+15) Trong Java, khi bạn truyền một đối tượng vào một phương thức,
  bạn đang truyền giá trị tham chiếu của đối tượng đó.
  Trong ví dụ của bạn, khi bạn gọi phương thức swap(jungleDVD, cinderellaDVD),
  bạn đang thực hiện việc hoán đổi giá trị tham chiếu
