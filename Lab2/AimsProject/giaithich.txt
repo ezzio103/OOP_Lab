@@ -1,0 +1,16 @@
+Trong Java, khi bạn truyền một đối tượng vào một phương thức,
+ bạn đang truyền giá trị tham chiếu của đối tượng đó.
+ Trong ví dụ của bạn, khi bạn gọi phương thức swap(jungleDVD, cinderellaDVD),
+ bạn đang thực hiện việc hoán đổi giá trị tham chiếu
+ của jungleDVD và cinderellaDVD. Khi bạn thay đổi giá trị của các tham chiếu,
+ không có ảnh hưởng đến đối tượng gốc được trỏ bởi các tham chiếu này.
+
+Tuy nhiên, khi bạn gọi phương thức
+ changeTitle(jungleDVD, cinderellaDVD.getTitle())
+, bạn đang truyền giá trị cinderellaDVD.getTitle() (một giá trị String)
+, không phải là một tham chiếu trực tiếp đến cinderellaDVD.
+ Trong phương thức changeTitle(),
+ bạn chỉ thay đổi giá trị của đối tượng
+ được truyền vào thông qua tham số dvd, 
+ không ảnh hưởng đến đối tượng cinderellaDVD gốc
+ được trỏ bởi cinderellaDVD.
