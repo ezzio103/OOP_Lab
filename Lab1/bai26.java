@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+package Lab1;//import java.util.Scanner;
 //
 //public class bai26 {
 //    public static void main(String[] args) {

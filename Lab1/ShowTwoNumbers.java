@@ -1,3 +1,4 @@
+package Lab1;
 import javax.swing.*;
 
 public class ShowTwoNumbers {
