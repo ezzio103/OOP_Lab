@@ -1,3 +1,5 @@
+package Lab1;
+
 import javax.swing.*;
 
 public class HelloNameDialog {
