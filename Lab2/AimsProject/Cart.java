@@ -35,10 +35,14 @@ public class Cart {
     public float totalCost() {
         float total = 0;
         for (int i = 0; i < qtyOrdered; i++) {
+
             if (itemOrdered[i] != null) {
+                System.out.println(i+" "+ this.itemOrdered[i].getTitle()+" "+this.itemOrdered[i].getCost() );
                 total += itemOrdered[i].getCost();
             }
         }
+        System.out.println("total cost: "+ total );
+
         return total;
     }
     
