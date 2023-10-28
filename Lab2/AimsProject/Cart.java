@@ -1,7 +1,7 @@
 package Lab2.AimsProject;
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
-    private DigitalVideoDisc[] itemOrdered = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
+    private DigitalVideoDisc itemOrdered[] = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
     private int qtyOrdered;
     
 
@@ -35,17 +35,24 @@ public class Cart {
     public float totalCost() {
         float total = 0;
         for (int i = 0; i < qtyOrdered; i++) {
-
             if (itemOrdered[i] != null) {
-                System.out.println(i+" "+ this.itemOrdered[i].getTitle()+" "+this.itemOrdered[i].getCost() );
                 total += itemOrdered[i].getCost();
             }
         }
-        System.out.println("total cost: "+ total );
-
         return total;
     }
     
-
+	 public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+        for (DigitalVideoDisc disc : dvdList) {
+            if (disc != null) {
+                addDigitalVideoDisc(disc);
+            }
+        }
+    }
+	
+	public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+        addDigitalVideoDisc(dvd1);
+        addDigitalVideoDisc(dvd2);
+    }
    
 }
