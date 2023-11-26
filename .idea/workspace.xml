@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/MediaComparatorByCostTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/MediaComparatorByTitleCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/Aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/Aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Disc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/cart/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/cart/CartTest/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/store/StoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/GarbageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/GarbageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/NoGarbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/NoGarbage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/DigitalVideoDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/DigitalVideoDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Media.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest/CartTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/store/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/store/StoreTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab3__test&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/D/intellij/lab1/OOLT.VN.20231-20215159.TranDucTuan&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/OtherProjects/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "topic/update-class-diagram/aims-project/lab03",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/D/intellij/lab1/OOLT.VN.20231-20215159.TranDucTuan",
+    "onboarding.tips.debug.path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/OtherProjects/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hust.soict.hedspi.aims.media" />
