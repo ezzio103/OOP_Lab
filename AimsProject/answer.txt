@@ -1,0 +1,51 @@
+
+16)
+
+1. Lợi ích của Đa hình là gì?
+
+Đa dạng: Đa hình cho phép một đối tượng có thể thực hiện nhiều hành vi
+ khác nhau thông qua cùng một giao diện.
+Dễ bảo trì: Nếu có thêm các loại mới được thêm vào, không cần sửa đổi
+ mã hiện tại. Chúng chỉ cần triển khai các giao diện đã định nghĩa.
+2. Làm thế nào Kế thừa hữu ích để đạt được Đa hình trong Java?
+
+Kế thừa cho phép một lớp con sử dụng các phương thức của lớp cha mà
+ không cần triển khai lại chúng. Điều này tạo ra khả năng đa hình,
+ vì các lớp con có thể thực hiện lại các phương thức được kế thừa 
+theo cách của riêng mình.
+3. Sự khác biệt giữa Đa hình và Kế thừa trong Java là gì?
+
+Đa hình (Polymorphism): Cho phép một đối tượng có thể thực hiện nhiều 
+hành vi khác nhau thông qua cùng một giao diện. Đa hình có thể được
+ đạt được bằng cách sử dụng kế thừa và giao diện.
+Kế thừa (Inheritance): Là một khái niệm trong hướng đối tượng cho
+ phép một lớp (lớp con) kế thừa thuộc tính và phương thức của lớp khác
+ (lớp cha). Kế thừa cung cấp cơ chế để tái sử dụng mã và xây dựng quan hệ
+ "is-a" giữa các lớp.
+
+
+17)
+
+1. Nếu chúng ta sử dụng phương tiện giao diện Comparable, lớp nào nên
+ thực hiện giao diện Comparable?
+
+Nếu sử dụng giao diện Comparable, chúng ta nên thực hiện nó trong lớp Media.
+
+2. Trong các lớp đó, làm thế nào bạn nên thực hiện phương thức compareTo()
+ để phản ánh thứ tự mong muốn?
+
+Chúng ta nên thực hiện phương thức compareTo() sao cho nó so sánh theo thứ tự 
+mong muốn, ví dụ như sắp xếp theo tiêu đề sau đó theo chi phí hoặc ngược lại.
+
+3. Chúng ta có thể có hai quy tắc sắp xếp cho một mục (theo tiêu đề sau đó theo
+ chi phí và ngược lại) không khi sử dụng giao diện Comparable?
+
+Không, giao diện Comparable chỉ cho phép một quy tắc sắp xếp.
+
+4. Nếu các đĩa DVD có một quy tắc sắp xếp khác (theo tiêu đề, sau đó theo
+ độ dài giảm, sau đó theo chi phí), làm thế nào bạn sẽ sửa đổi mã của bạn
+ để cho phép điều này?
+
+Chúng ta có thể thêm các so sánh mới vào lớp DigitalVideoDisc và sử dụng
+ chúng tùy thuộc vào loại đối tượng. Cụ thể, chúng ta có thể thêm Comparator
+ mới cho DVD, ví dụ MediaComparatorForDVD, và sử dụng nó khi cần thiết.

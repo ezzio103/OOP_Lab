@@ -2,48 +2,54 @@ package hust.soict.hedspi.aims.store;
 
 
 import hust.soict.hedspi.aims.media.DigitalVideoDisc;
+import hust.soict.hedspi.aims.media.Media;
+
+import java.util.ArrayList;
 
 public class Store {
-    private DigitalVideoDisc[] itemsInStore;
+    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
     private int currentIndex;
 
-    public Store(int maxSize) {
-        itemsInStore = new DigitalVideoDisc[maxSize];
-        currentIndex = 0;
+    public Store() {
+
     }
 
-    public DigitalVideoDisc[] getItemsInStore() {
+    public ArrayList<Media> getItemsInStore() {
         return itemsInStore;
     }
+//    public DigitalVideoDisc[] getItemsInStore() {
+//
+//        return itemsInStore;
+//    }
 
-    public void setItemsInStore(DigitalVideoDisc[] itemsInStore) {
+
+    public void setItemsInStore(ArrayList<Media> itemsInStore) {
         this.itemsInStore = itemsInStore;
     }
 
-    public void addDVD(DigitalVideoDisc dvd) {
-        if (currentIndex < itemsInStore.length) {
-            itemsInStore[currentIndex] = dvd;
-            currentIndex++;
-            System.out.println("DVD added to the store.");
+    public void addMedia(Media media) {
+        itemsInStore.add(media);
+        System.out.println("The media has been added to the store.");
+    }
+
+    public void removeMedia(Media media) {
+        if (itemsInStore.remove(media)) {
+            System.out.println("The media has been removed from the store.");
         } else {
-            System.out.println("The store is full. Cannot add more DVDs.");
+            System.out.println("The media was not found in the store.");
         }
     }
 
-    public void removeDVD(DigitalVideoDisc dvd) {
-        for (int i = 0; i < currentIndex; i++) {
-            if (itemsInStore[i] != null && itemsInStore[i].getTitle().equals(dvd.getTitle())) {
-                // Found the DVD, remove it
-                for (int j = i; j < currentIndex - 1; j++) {
-                    itemsInStore[j] = itemsInStore[j + 1];
+    public Media searchByTitle(String title) {
+        if(title!=null){
+            for (Media m : this.getItemsInStore()
+            ) {
+                if(m.getTitle().equals(title)){
+                    return m;
                 }
-                itemsInStore[currentIndex - 1] = null;
-                currentIndex--;
-                System.out.println("DVD removed from the store.");
-                return;
             }
         }
-        System.out.println("DVD not found in the store.");
+    return null;
     }
 }
 

@@ -15,7 +15,8 @@ public class Book extends Media {
 // TODO Auto-generated constructor stub
     }
 
-
+    public Book() {
+    }
 
     public List<String> getAuthors() {
         return authors;
@@ -43,5 +44,15 @@ public class Book extends Media {
         } else {
             System.out.println("Author '" + authorName + "' is not in the list.");
         }
+    }
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Book - ");
+        sb.append("Title: ").append(getTitle()).append(", ");
+        sb.append("Category: ").append(getCategory()).append(", ");
+        sb.append("Cost: ").append(getCost()).append(", ");
+        sb.append("Authors: ").append(getAuthors());
+        return sb.toString();
     }
 }
