@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="" />
+    <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_17_0_9_windows_x64_bin_sdk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProject/GUIProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProject/src/AWTAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProject/src/SwingAccumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/AimsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOLT.VN.20231-20215159.TranDucTuan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOLT.VN.20231-20215159.TranDucTuan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherProjects/OtherProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/OtherProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/NoGarbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/garbage/NoGarbage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="release/lab03" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,10 +54,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "topic/update-class-diagram/aims-project/lab03",
+    "git-widget-placeholder": "release/lab04",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/D/intellij/lab1/OOLT.VN.20231-20215159.TranDucTuan",
-    "onboarding.tips.debug.path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/OtherProjects/src/Main.java"
+    "last_opened_file_path": "D:/D/intellij/lab1/javafx-sdk-17.0.9/lib",
+    "onboarding.tips.debug.path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
