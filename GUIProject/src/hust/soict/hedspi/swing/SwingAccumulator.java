@@ -1,37 +1,40 @@
-import java.awt.Frame;
-import java.awt.GridLayout;
-import java.awt.Label;
-import java.awt.TextField;
+package hust.soict.hedspi.swing;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AWTAccumulator extends Frame {
-    private TextField tfInput;
-    private TextField tfOutput;
+public class SwingAccumulator extends JFrame {
+    private JTextField tfInput;
+    private JTextField tfOutput;
     private int sum = 0;
 
-    // Constructor to set up the GUI components and event handlers
-    public AWTAccumulator() {
-        setLayout(new GridLayout(2, 2));
+    // Accumulated sum, initialized to 0
 
-        add(new Label("Enter an Integer: "));
-        tfInput = new TextField(10);
-        add(tfInput);
+    // Constructor to set up the GUI components and event handlers
+    public SwingAccumulator() {
+        Container cp = getContentPane();
+        cp.setLayout(new GridLayout(2, 2));
+
+        cp.add(new JLabel("Enter an Integer: "));
+        tfInput = new JTextField(10);
+        cp.add(tfInput);
 
         tfInput.addActionListener(new TFInputListener());
 
-        add(new Label("The Accumulated Sum is: "));
-        tfOutput = new TextField(10);
+        cp.add(new JLabel("The Accumulated Sum is: "));
+        tfOutput = new JTextField(10);
         tfOutput.setEditable(false);
-        add(tfOutput);
+        cp.add(tfOutput);
 
-        setTitle("AWT Accumulator");
+        setTitle("Swing Accumulator");
         setSize(350, 120);
         setVisible(true);
     }
 
     public static void main(String[] args) {
-        new AWTAccumulator();
+        new SwingAccumulator();
     }
 
     // Private inner class for handling TextField input events
