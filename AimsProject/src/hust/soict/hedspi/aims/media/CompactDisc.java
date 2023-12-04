@@ -9,8 +9,11 @@ public class CompactDisc extends Disc implements Playable{
     // Constructors
     public CompactDisc(int id, String title, String category, float cost, String director, ArrayList<Track> tracks) {
         super(id, title, category, cost, director);
-        if(tracks!=null)
-        this.tracks = new ArrayList<>(tracks);
+        if(tracks!=null){
+            this.tracks = new ArrayList<>(tracks);
+        }
+
+
     }
 
     // Getter methods
@@ -20,7 +23,7 @@ public class CompactDisc extends Disc implements Playable{
 
     // Other methods
     public void addTrack(Track track) {
-        if(tracks!=null)
+
 
         if (tracks.contains(track)) {
             System.out.println("The track is already in the list.");

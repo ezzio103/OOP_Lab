@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/AddBookToStoreScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/AddCompactDiscToStoreScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/AddDigitalVideoDiscToStoreScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/AddItemToStoreScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/MediaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/MediaStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/StoreManagerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/manager/StoreManagerScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/CompactDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/manager/StoreManagerScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/manager/StoreManagerScreen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release/lab04" />
+        <entry key="$PROJECT_DIR$" value="feature/store-manager-screen" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/store-manager-screen&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/add__item__screen&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/D/intellij/lab1/javafx-sdk-17.0.9/lib&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java&quot;,
