@@ -1,0 +1,24 @@
+1. Container Cấp Cao trong Swing và AWT:
+AWT dựa trên các thành phần của hệ điều hành, với các container
+ như Frame và Applet phản ánh trực tiếp giao diện người dùng của hệ thống.
+Swing, một phần của Java Foundation Classes (JFC), sử dụng các container
+ như JFrame và JApplet được xây dựng hoàn toàn bằng Java, cho phép 
+giao diện người dùng đồng nhất trên mọi hệ thống.
+
+2. Tên Lớp của Thành Phần trong AWT và Swing:
+Trong AWT, bạn có các thành phần như Button, Checkbox, TextField, phản ánh
+ các thành phần tương ứng của hệ điều hành.Trong Swing, các lớp tương ứng 
+như JButton, JCheckbox, JTextField được viết hoàn toàn bằng Java, không phụ
+ thuộc vào hệ điều hành, cung cấp sự linh hoạt và tùy biến cao.
+
+3. Xử Lý Sự Kiện trong Swing và AWT:
+Cả Swing và AWT sử dụng mô hình Listener để xử lý sự kiện. Tuy nhiên, Swing
+ cung cấp một số Listener phức tạp và chi tiết hơn.Swing cung cấp khả năng
+ phản hồi tốt hơn cho các sự kiện do cách thức hoạt động độc lập với hệ 
+điều hành, trong khi AWT phụ thuộc nhiều vào hệ điều hành cho xử lý sự kiện.
+
+4. Hình Thức Xuất Hiện của Ứng Dụng Swing và AWT:
+AWT phụ thuộc vào giao diện người dùng của hệ điều hành, do đó nó thay 
+đổi theo từng hệ thống.Swing cung cấp sự nhất quán về giao diện người dùng
+ trên các nền tảng, với khả năng tùy chỉnh cao hơn và kiểm soát tốt hơn về
+ mặt thiết kế giao diện.
