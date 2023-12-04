@@ -9,7 +9,11 @@ public class CompactDisc extends Disc implements Playable{
     // Constructors
     public CompactDisc(int id, String title, String category, float cost, String director, ArrayList<Track> tracks) {
         super(id, title, category, cost, director);
-        this.tracks = new ArrayList<>(tracks);
+        if(tracks!=null){
+            this.tracks = new ArrayList<>(tracks);
+        }
+
+
     }
 
     // Getter methods
@@ -19,6 +23,8 @@ public class CompactDisc extends Disc implements Playable{
 
     // Other methods
     public void addTrack(Track track) {
+
+
         if (tracks.contains(track)) {
             System.out.println("The track is already in the list.");
         } else {
@@ -27,6 +33,8 @@ public class CompactDisc extends Disc implements Playable{
     }
 
     public void removeTrack(Track track) {
+        if(tracks!=null)
+
         if (tracks.contains(track)) {
             tracks.remove(track);
         } else {
@@ -40,6 +48,7 @@ public class CompactDisc extends Disc implements Playable{
 
     public int getLength() {
         int totalLength = 0;
+        if(tracks!=null)
         for (Track track : tracks) {
             totalLength += track.getLength();
         }
@@ -67,6 +76,7 @@ public class CompactDisc extends Disc implements Playable{
         sb.append("Cost: ").append(getCost()).append(", ");
         sb.append("Director: ").append(getDirector()).append(", ");
         sb.append("Artist: ").append(getArtist()).append(", ");
+        if(getTracks()!=null)
         sb.append("Tracks: ").append(getTracks().size()).append(" tracks");
         return sb.toString();
     }
