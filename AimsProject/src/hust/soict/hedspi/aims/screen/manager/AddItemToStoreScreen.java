@@ -99,21 +99,21 @@ public class AddItemToStoreScreen extends JFrame{
 //            store.addMedia(dvd9);
             String a = evt.getActionCommand();
             if(a.equals("Add Book")){
-                System.out.println(store.getItemsInStore().size());
+//                System.out.println(store.getItemsInStore().size());
                 dispose();
                 new AddBookToStoreScreen(store);
             }else if(a.equals("Add CD")) {
-                System.out.println(store.getItemsInStore().size());
+//                System.out.println(store.getItemsInStore().size());
 
                 dispose();
                 new AddCompactDiscToStoreScreen(store);}
             else if (a.equals("Add DVD")){
-                System.out.println(store.getItemsInStore().size());
+//                System.out.println(store.getItemsInStore().size());
 
                 dispose();
                 new AddDigitalVideoDiscToStoreScreen(store);
             } else if (a.equals("View store")) {
-                System.out.println(store.getItemsInStore().size());
+                System.out.println("so luong san pham: "+ store.getItemsInStore().size());
 
                 dispose();
                 new StoreManagerScreen(store);

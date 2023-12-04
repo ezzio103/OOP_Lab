@@ -57,10 +57,10 @@ public class AddBookToStoreScreen extends AddItemToStoreScreen{
         @Override
         public void actionPerformed(ActionEvent evt) {
             Book book = new Book(Integer.parseInt(idInput.getText()),titleInput.getText(), catInput.getText(), Float.parseFloat(costInput.getText()));
-            System.out.println("vua tao sach");
+//            System.out.println("vua tao sach");
 //            ((StoreManagerScreen) SwingUtilities.getWindowAncestor(cp)).addMediaToStore(book);
             store.addMedia(book);
-            System.out.println("dathem sach");
+            System.out.println("da them sach");
             super.actionPerformed(evt);
         }
     }

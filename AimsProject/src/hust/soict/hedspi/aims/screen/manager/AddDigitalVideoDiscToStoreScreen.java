@@ -58,11 +58,11 @@ public class AddDigitalVideoDiscToStoreScreen extends AddItemToStoreScreen {
                     Integer.parseInt(lengthInput.getText()),
                     Float.parseFloat(costInput.getText())
             );
-            System.out.println("vua tao DVD");
+//            System.out.println("vua tao DVD");
 
 //            ((StoreManagerScreen) SwingUtilities.getWindowAncestor(cp)).addMediaToStore(dvd);
             store.addMedia(dvd);
-            System.out.println("vua them DVD");
+            System.out.println("da them DVD");
 
             super.actionPerformed(evt);
         }

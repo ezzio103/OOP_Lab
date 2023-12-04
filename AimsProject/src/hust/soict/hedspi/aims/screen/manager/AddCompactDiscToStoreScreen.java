@@ -59,7 +59,7 @@ public class AddCompactDiscToStoreScreen extends AddItemToStoreScreen {
                     directorInput.getText(),
                     null // Thêm logic để nhập danh sách các track của CompactDisc
             );
-            System.out.println("vua tao CD");
+//            System.out.println("vua tao CD");
 
 //            ((StoreManagerScreen) SwingUtilities.getWindowAncestor(cp)).addMediaToStore(compactDisc);
             store.addMedia(compactDisc);
