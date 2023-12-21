@@ -2,14 +2,16 @@ package hust.soict.hedspi.aims.cart.Cart;
 
 import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.util.ArrayList;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
-    private ArrayList<Media> itemsOrdered = new ArrayList<Media>();
+//    private ArrayList<Media> itemsOrdered = new ArrayList<Media>();
 
-
+    private ObservableList<Media> itemsOrdered = FXCollections.observableArrayList();
 
     public Cart() {
 
@@ -117,6 +119,10 @@ public class Cart {
     public void clear() {
         itemsOrdered.clear();
         System.out.println("The cart has been cleared.");
+    }
+
+    public ObservableList<Media> getItemsOrdered() {
+        return itemsOrdered;
     }
 //    public void sapXepItemOrdered(){
 //        int f=-1;
