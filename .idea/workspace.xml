@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GUIProject/src/hust/soict/hedspi/javafx/Painter.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUIProject/src/hust/soict/hedspi/javafx/Painter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUIProject/src/hust/soict/hedspi/javafx/PainterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_17_0_9_windows_x64_bin_sdk.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/view/Item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/view/Store.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIProject/GUIProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GUIProject/GUIProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIProject/src/hust/soict/hedspi/swing/Painter.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOLT.VN.20231-20215159.TranDucTuan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOLT.VN.20231-20215159.TranDucTuan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherProjects/OtherProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/OtherProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUIProject/hust/soict/hedspi/javafx/Painter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUIProject/hust/soict/hedspi/javafx/Painter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "release/lab05",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject",
-    "onboarding.tips.debug.path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.14941406",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;release/lab05&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14941406&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\D\intellij\lab1\src\OOLT.VN.20231-20215159.TranDucTuan\GUIProject\src\hust\soict\hedspi\javafx" />
@@ -76,14 +78,14 @@
       <recent name="hust.soict.hedspi.aims.media" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hust.soict.hedspi.screen.customer.view" />
       <recent name="hust.soict.hedspi.test.disc.TestPassingParameter" />
       <recent name="hust.soict.hedspi.aims.media" />
       <recent name="hust.soict.hedspi.garbage" />
       <recent name="hust.soict.hedspi.test.cart.CartTest" />
-      <recent name="hust.soict.hedspi.test.store" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestViewStoreScreen">
     <configuration name="Painter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -95,6 +97,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCartController" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.hedspi.test.screen.customer.store.TestCartController" />
+      <module name="AimsProject" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\D\intellij\lab1\javafx-sdk-17.0.9\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestViewStoreScreen" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.hedspi.test.screen.customer.store.TestViewStoreScreen" />
+      <module name="AimsProject" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\D\intellij\lab1\javafx-sdk-17.0.9\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Painter" />
+      <item itemvalue="Application.TestViewStoreScreen" />
+      <item itemvalue="Application.TestCartController" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
