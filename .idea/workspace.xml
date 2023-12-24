@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/CartController.java" afterDir="false" />
@@ -16,6 +17,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" afterDir="false" />
     </list>
+
+
+
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +54,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -64,9 +70,11 @@
     &quot;last_opened_file_path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+
     &quot;project.structure.proportion&quot;: &quot;0.14941406&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+
   }
 }</component>
   <component name="RecentsManager">
@@ -84,6 +92,7 @@
       <recent name="hust.soict.hedspi.test.cart.CartTest" />
     </key>
   </component>
+
   <component name="RunManager" selected="Application.TestViewStoreScreen">
     <configuration name="Painter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk" />
@@ -122,6 +131,7 @@
       <item itemvalue="Application.TestCartController" />
     </list>
   </component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
