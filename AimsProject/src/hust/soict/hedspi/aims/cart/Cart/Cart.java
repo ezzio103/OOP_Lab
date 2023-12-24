@@ -5,6 +5,7 @@ import hust.soict.hedspi.aims.media.Media;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import javax.naming.LimitExceededException;
 import java.util.ArrayList;
 
 public class Cart {
@@ -17,13 +18,25 @@ public class Cart {
 
 
     }
-
-    public void addMedia(Media media) {
+//    public void addMedia (Media m) throws LimitExceededException { if(itemsOrdered.size() < MAX_NUMBERS_ORDERED) {
+////TODO add media into cart
+//    }
+//    else {
+//        throw new LimitExceededException("ERROR: The number of
+//                + "media has reached its limit");
+//    }
+//    }
+    public void addMedia(Media media) throws LimitExceededException {
+        if(itemsOrdered.size() < MAX_NUMBERS_ORDERED) {
         if (!itemsOrdered.contains(media)) {
             itemsOrdered.add(media);
             System.out.println("The media has been added to the cart.");
         } else {
             System.out.println("The media is already in the cart.");
+        }}
+        else {
+            throw new LimitExceededException("ERROR: The number of"
+                    + " media has reached its limit");
         }
     }
 
@@ -51,7 +64,7 @@ public class Cart {
 
     }
     
-	 public void addMedia(DigitalVideoDisc[] dvdList) {
+	 public void addMedia(DigitalVideoDisc[] dvdList) throws LimitExceededException {
         for (DigitalVideoDisc disc : dvdList) {
             if (disc != null) {
                 addMedia(disc);
@@ -68,7 +81,7 @@ public class Cart {
 //            }
 //        }
 //    }
-	public void addMedia(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+	public void addMedia(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) throws LimitExceededException {
         addMedia(dvd1);
         addMedia(dvd2);
     }

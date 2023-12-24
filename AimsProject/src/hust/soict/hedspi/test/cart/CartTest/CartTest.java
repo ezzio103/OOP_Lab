@@ -4,12 +4,13 @@ package hust.soict.hedspi.test.cart.CartTest;
 import hust.soict.hedspi.aims.cart.Cart.Cart;
 import hust.soict.hedspi.aims.media.*;
 
+import javax.naming.LimitExceededException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class CartTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws LimitExceededException {
         // Create a new cart
         Cart cart = new Cart();
 

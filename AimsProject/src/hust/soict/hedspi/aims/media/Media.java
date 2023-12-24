@@ -54,22 +54,21 @@ public abstract class Media {
 // Các phương thức khác của lớp Media (nếu cần)
 
     @Override
-    public boolean equals(Object obj) {
-        // Check if the reference is the same
-        if (this == obj) {
-            return true;
-        }
-
-        // Check if the passed object is null or of a different class
-        if (obj == null || getClass() != obj.getClass()) {
+    public boolean equals(Object o) {
+        try {
+            // Object compare with itself
+            if (o == this) {
+                return true;
+            }
+            // Check if the object is an instance of Media
+            if (!(o instanceof Media other)) {
+                return false;
+            }
+            // Compare the titles and return accordingly
+            return this.getTitle().equals(other.getTitle()) && this.getCost() == other.getCost();
+        } catch (NullPointerException | ClassCastException e) {
             return false;
         }
-
-        // Cast the object to Media
-        Media otherMedia = (Media) obj;
-
-        // Check if titles are equal
-        return title.equals(otherMedia.title);
     }
 
 
