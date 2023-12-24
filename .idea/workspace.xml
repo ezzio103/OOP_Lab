@@ -4,23 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="02822745-1e4b-4b94-b7ed-bb144766b2e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/exception/PlayerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/TitleThenCostComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/Aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/Aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/cart/Cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/media/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/CartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/cart/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/cart/CartTest/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/screen/customer/store/TestCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/screen/customer/store/TestCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/CompactDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Playable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Playable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/media/Track.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/CartController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/CartController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/CartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/controller/ViewStoreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/screen/customer/view/Cart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest/CartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/screen/customer/store/TestCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/screen/customer/store/TestCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.class" afterDir="false" />
     </list>
-
-
-
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,29 +64,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;release/lab05&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-
-    &quot;project.structure.proportion&quot;: &quot;0.14941406&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
-
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "release/lab05",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/AimsProject/src/hust/soict/hedspi/aims/media",
+    "onboarding.tips.debug.path": "D:/D/intellij/lab1/src/OOLT.VN.20231-20215159.TranDucTuan/GUIProject/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.14941406",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\D\intellij\lab1\src\OOLT.VN.20231-20215159.TranDucTuan\GUIProject\src\hust\soict\hedspi\javafx" />
@@ -92,7 +99,6 @@
       <recent name="hust.soict.hedspi.test.cart.CartTest" />
     </key>
   </component>
-
   <component name="RunManager" selected="Application.TestViewStoreScreen">
     <configuration name="Painter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk" />
@@ -131,7 +137,6 @@
       <item itemvalue="Application.TestCartController" />
     </list>
   </component>
-
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

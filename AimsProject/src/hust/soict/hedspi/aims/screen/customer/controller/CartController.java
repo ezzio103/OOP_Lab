@@ -1,5 +1,6 @@
 package hust.soict.hedspi.aims.screen.customer.controller;
 import hust.soict.hedspi.aims.cart.Cart.Cart;
+import hust.soict.hedspi.aims.exception.PlayerException;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.media.Playable;
 import hust.soict.hedspi.aims.store.Store;
@@ -78,7 +79,7 @@ private TextField txtFilter;
                 updateTotalPrice();
         }
         @FXML
-        void btnPlayPressed(ActionEvent event) {
+        void btnPlayPressed(ActionEvent event) throws PlayerException {
 //      Media media = tblMedia.getSelectionModel().getSelectedItem();
                 Media media = tblMedia.getSelectionModel().getSelectedItem();
                 if (media instanceof Playable) {

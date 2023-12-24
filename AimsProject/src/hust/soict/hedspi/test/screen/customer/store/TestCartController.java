@@ -12,6 +12,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import javax.naming.LimitExceededException;
+
 public class TestCartController extends Application {
     private static Store store;
     private static Cart cart;
@@ -31,7 +33,7 @@ public class TestCartController extends Application {
         primaryStage.show();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws LimitExceededException {
         cart = new Cart();
 
         store = new Store();

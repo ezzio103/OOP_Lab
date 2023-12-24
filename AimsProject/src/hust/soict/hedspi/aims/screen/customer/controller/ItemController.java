@@ -1,6 +1,7 @@
 package hust.soict.hedspi.aims.screen.customer.controller;
 
         import hust.soict.hedspi.aims.cart.Cart.Cart;
+        import hust.soict.hedspi.aims.exception.PlayerException;
         import hust.soict.hedspi.aims.media.Media;
         import hust.soict.hedspi.aims.media.Playable;
         import javafx.event.ActionEvent;
@@ -56,7 +57,7 @@ public class ItemController {
 //    }
 
     @FXML
-    void btnPlayClicked(ActionEvent event) {
+    void btnPlayClicked(ActionEvent event) throws PlayerException {
         if (media instanceof Playable) {
             Playable playableMedia = (Playable) media;
             playableMedia.play(); // Call the play method on the media

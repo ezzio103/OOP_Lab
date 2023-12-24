@@ -1,11 +1,13 @@
 package hust.soict.hedspi.aims.Aims;
 
 import hust.soict.hedspi.aims.cart.Cart.Cart;
+import hust.soict.hedspi.aims.exception.PlayerException;
 import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.media.Playable;
 import hust.soict.hedspi.aims.store.Store;
 
+import javax.naming.LimitExceededException;
 import java.util.Scanner;
 
 //public class Aims {
@@ -45,7 +47,7 @@ import java.util.Scanner;
 
 ///////////////////////////////////////
 public class Aims {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PlayerException, LimitExceededException {
         Store store = new Store();
         Cart cart = new Cart();
 //        Store store = new Store();
@@ -98,7 +100,7 @@ public class Aims {
         System.out.println("Please choose a number: 0-1-2-3");
     }
 
-    public static void viewStore(Store store, Cart cart, Scanner scanner) {
+    public static void viewStore(Store store, Cart cart, Scanner scanner) throws PlayerException, LimitExceededException {
         storeMenu();
         int choice;
         do {
@@ -140,7 +142,7 @@ public class Aims {
         System.out.println("Please choose a number: 0-1-2-3-4");
     }
 
-    public static void seeMediaDetails(Store store, Cart cart, Scanner scanner) {
+    public static void seeMediaDetails(Store store, Cart cart, Scanner scanner) throws PlayerException, LimitExceededException {
         System.out.println("Enter the title of the media: ");
         String title = scanner.nextLine();
         Media media = store.searchByTitle(title);
@@ -187,7 +189,7 @@ public class Aims {
         System.out.println("Please choose a number: 0-1-2");
     }
 
-    public static void addMediaToCart(Store store, Cart cart, Scanner scanner) {
+    public static void addMediaToCart(Store store, Cart cart, Scanner scanner) throws LimitExceededException {
         System.out.println("Enter the title of the media: ");
         String title = scanner.nextLine();
         Media media = store.searchByTitle(title);
@@ -200,12 +202,12 @@ public class Aims {
         }
     }
 
-    public static void addMediaToCart(Store store, Cart cart, Media media) {
+    public static void addMediaToCart(Store store, Cart cart, Media media) throws LimitExceededException {
         cart.addMedia(media);
         System.out.println("Media added to cart. Current cart size: " + cart.size());
     }
 
-    public static void playMedia(Store store, Scanner scanner) {
+    public static void playMedia(Store store, Scanner scanner) throws PlayerException {
         System.out.println("Enter the title of the media: ");
         String title = scanner.nextLine();
         Media media = store.searchByTitle(title);
