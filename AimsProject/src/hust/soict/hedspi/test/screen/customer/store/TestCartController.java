@@ -20,6 +20,7 @@ public class TestCartController extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+//        hust/soict/hedspi/aims/screen/customer/view/Cart.fxml
         //hust/soict/hedspi/screen/customer/view/Store.fxml
         //hust/soict/hedspi/test/screen/customer/store/TestViewStoreScreen.java
         final String STORE_FXML_FILE_PATH = "../../../../aims/screen/customer/view/Cart.fxml";
